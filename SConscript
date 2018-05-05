@@ -21,6 +21,6 @@ path += [cwd + '/rt-thread/']
 #
 CPPDEFINES = ['']
 
-group = DefineGroup('NES', src, depend = ['RT_USING_GUIENGINE'], CPPPATH = path, CPPDEFINES = CPPDEFINES)
+group = DefineGroup('NES', src, depend = ['PKG_USING_GUIENGINE'], CPPPATH = path, CPPDEFINES = CPPDEFINES)
 
 Return('group')

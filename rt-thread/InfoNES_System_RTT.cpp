@@ -10,7 +10,7 @@
 //#define DBG_COLOR
 #include <rtdbg.h>
 
-#if defined(RT_USING_GUIENGINE)
+#if defined(PKG_USING_GUIENGINE)
 
 #define NES_THREAD_STACK_SIZE     (2048)
 #define NES_THREAD_PRIORITY       (RT_THREAD_PRIORITY_MAX * 4 / 5)

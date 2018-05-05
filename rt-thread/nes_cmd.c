@@ -1,6 +1,6 @@
 #include <rtthread.h>
 
-#if defined(RT_USING_GUIENGINE) && defined(RT_USING_FINSH)
+#if defined(PKG_USING_GUIENGINE) && defined(RT_USING_FINSH)
 #include <shell.h>
 
 extern rt_err_t nes_runing(int argc, char** argv);
